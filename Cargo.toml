@@ -1,0 +1,23 @@
+[package]
+name = "hanime"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+m3u8-rs = "1.0.6"
+nom = "7"
+http = "0.2"
+regex = "1.5"
+serde_json = "1.0"
+clap = "3.0.0-beta.4"
+futures = "0.3.17"
+aes = "0.7.5"
+block-modes = "0.8.1"
+hex-literal = "0.3.3"
+bytes = "1"
+uuid = { version = "0.8", features =  ["serde", "v4"]}
+pbr = "1.0.4"
